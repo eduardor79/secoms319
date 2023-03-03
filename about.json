@@ -1,0 +1,21 @@
+{
+    "hardware": [
+    {
+        "name": "Raspberry Pi 3",
+        "description": "the computer that we use to get information from our sensor",
+        "price": "35"
+    
+    },
+    {
+        "name": "DHT 11 Sensor",
+        "description": "connected to the raspberry pi to sense humidity and temperature",
+        "price": "1"
+    
+    },
+    {
+        "nameame": "USB A to USB Micro B",
+        "description": "used to give power to the Raspberry Pi",
+        "price": "7"
+    }
+    ]
+}
