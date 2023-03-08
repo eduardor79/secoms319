@@ -14,7 +14,7 @@ function dataToHTML(data){
 }
 function myfunction_onload(){
     $.ajax({
+        type: "POST",
         url: "ssh.py",
-        context: document.body
     })
 }
