@@ -3,10 +3,10 @@ import json
 
 client = SSHClient()
 client.load_system_host_keys()
-client.connect('example.com', username='user', password='secret')
+client.connect('192.168.1.13', username='pi', password='raspberry')
 
 # insert command for running script
-stdin, stdout, stderr = client.exec_command('here')
+stdin, stdout, stderr = client.exec_command('python3 DHT11.py')
 
 
 print(f'STDOUT: {stdout.read().decode("utf8")}')

@@ -5,7 +5,7 @@ fetch("data.json")
 
 function dataToHTML(data){
     string1 = data.Temperature+" degrees F"
-    string2 = data.TemperatureinC+" degrees C"
+    string2 = data.TemperatureC+" degrees C"
     var p1 = document.createElement("p")
     var p2 = document.createElement("p")
     p1.innerHTML = string1
