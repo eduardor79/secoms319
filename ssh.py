@@ -7,7 +7,7 @@ client.set_missing_host_key_policy(AutoAddPolicy())
 client.connect('192.168.1.13', username='pi', password='raspberry')
 
 # insert command for running script
-stdin, stdout, stderr = client.exec_command('python3 DHT11.py')
+stdin, stdout, stderr = client.exec_command('python3 /home/pi/DHT11.py')
 
 
 print(f'STDOUT: {stdout.read().decode("utf8")}')
