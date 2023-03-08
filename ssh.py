@@ -12,8 +12,9 @@ client.connect('192.168.1.13', username='pi', password='raspberry')
 while (1):
     stdin, stdout, stderr = client.exec_command("python3 DHT11.py")
     stdin, stdout, stderr = client.exec_command("cat data.json")
+    json_string = stdout.read().decode()
     print(stdout.read().decode())
-    json_object = json.load(stdout.read().decode())
+    json_object = json.load(json_string)
     with open('data.json', 'w') as f:
         json.dump(json_object, f)
     time.sleep(2)
