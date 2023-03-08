@@ -13,7 +13,7 @@ while (1):
     stdin, stdout, stderr = client.exec_command("python3 DHT11.py")
     stdin, stdout, stderr = client.exec_command("cat data.json")
     json_string = stdout.read().decode()
-    print(stdout.read().decode())
+    print(json_string)
     json_object = json.loads(json_string)
     with open('data.json', 'w') as f:
         json.dump(json_object, f)
