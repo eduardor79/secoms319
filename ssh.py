@@ -14,7 +14,7 @@ while (1):
     stdin, stdout, stderr = client.exec_command("cat data.json")
     json_string = stdout.read().decode()
     print(stdout.read().decode())
-    json_object = json.load(json_string)
+    json_object = json.loads(json_string)
     with open('data.json', 'w') as f:
         json.dump(json_object, f)
     time.sleep(2)
