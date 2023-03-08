@@ -84,6 +84,7 @@
     <link href="navbar-fixed.css" rel="stylesheet" />
   </head>
   <body>
+    <element onload="myfunction_onload"></element>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">Temperature</a>
@@ -126,8 +127,9 @@
     <main class="container">
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
-          <div class="col-lg-6 col-md-8 mx-auto" id="mainDiv">
+          <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Humidity</h1>
+            <p id="mainP"></p>
           </div>
         </div>
       </section>
