@@ -11,7 +11,7 @@ stdin, stdout, stderr = client.exec_command('ls')
 print(stdout.read().decode())
 
 # insert command for running script
-stdin, stdout, stderr = client.exec_command('python3 /home/pi/DHT11.py')
+stdin, stdout, stderr = client.exec_command("python3 DHT11.py")
 
 
 print(stdout.read().decode())
