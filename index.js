@@ -1,3 +1,19 @@
+var temp1 = document.createElement("img")
+temp1.src = "./images/weather.png"
+temp1.alt = "weather"
+temp1.height = "100"
+var div1 = document.getElementById("reading1")
+div1.insertBefore(temp1, div1.firstChild)
+
+var temp2 = document.createElement("img")
+temp2.src = "./images/weather.png"
+temp2.alt = "weather"
+temp2.height = "100"
+var div2 = document.getElementById("reading2")
+div2.insertBefore(temp2, div2.firstChild)
+
+
+
 getData()
 setInterval(getData, 2000)
 
