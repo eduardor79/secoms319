@@ -14,7 +14,7 @@ function getData(){
         .then(data => dataToHTML(data))
 }
 function dataToHTML(data){
-    string1 = data.Humidity+"%"
+    string1 = data.Humidity+"% Humidity"
     var p = document.getElementById("mainP")
     p.innerHTML = string1
 

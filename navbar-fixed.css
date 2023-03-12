@@ -2,4 +2,5 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
+  background-image: linear-gradient(to right, rgb(227, 171, 171) , rgb(176, 221, 238));
 }
