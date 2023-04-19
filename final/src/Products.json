@@ -1,0 +1,48 @@
+[{
+    "id": "1",
+    "title": "Brown Tote, Grocery Bag",
+    "price": "14.99",
+    "image": "../pictures/totebag.jpg",
+    "rating": "3.9",
+    "amount": "0"
+  },
+  {
+    "id": "2",
+    "title": "Kids Plush Toy, Knitted",
+    "price": "19.99",
+    "image": "../pictures/bunny.jpg",
+    "rating": "4.1",
+    "amount": "0"
+  },
+  {
+    "id": "3",
+    "title": "Black Sunglasses",
+    "price": "49.99",
+    "image": "../pictures/sunglasses.jpg",
+    "rating": "4.7",
+    "amount": "0"
+  },
+  {
+    "id": "4",
+    "title": "Old School Black Typewriter",
+    "price": "279.99",
+    "image": "../pictures/typewriter.jpg",
+    "rating": "2.1",
+    "amount": "0"
+  },
+  {
+    "id": "5",
+    "title": "Black and Copper WristWatch",
+    "price": "200",
+    "image": "../pictures/watch.jpg",
+    "rating": "4.6",
+    "amount": "0"
+  },
+  {
+    "id": "6",
+    "title": "Yellow Heels",
+    "price": "29.99",
+    "image": "../pictures/yellowHeels.jpg",
+    "rating": "3.9",
+    "amount": "0"
+  }]
